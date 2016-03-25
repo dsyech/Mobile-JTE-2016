@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Masukkan username dan password baru anda"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtUserBaru"
+        android:hint="username baru"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtPassBaru"
+        android:hint="password baru"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="simpan"
+        android:id="@+id/btnSimpan"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickBtnSimpan" />
+</LinearLayout>
